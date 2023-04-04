@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(#ffd569, #f5da98);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.fruit-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mango-container {
+  width: 80%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.mango-image {
+  width: 80%;
+}
+.button {
+  color: white;
+  background-color: #007bff;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+.heading {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .item-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
